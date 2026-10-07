@@ -44,5 +44,5 @@ public abstract class Figura {
             }
             default -> throw new IllegalArgumentException("Tipo de figura no soportado: " + tipo);
         }
-    }
+    } 
 }
